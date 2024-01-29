@@ -13,7 +13,7 @@ class Solution:
         
     def twoSum(self, numbers, target: int):
         if len(numbers) == 2:
-            return [0, 1]
+            return [1, 2]
         for j in range(len(numbers) - 1):
             
             wanted = target - numbers[j]
